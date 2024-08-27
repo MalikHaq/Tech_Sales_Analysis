@@ -27,19 +27,17 @@ TechSales Dashboard is an interactive R Shiny application designed to visualize 
 
 TechSales-Dashboard/    
 │    
-├── app.R              # Main Shiny application file    
-├── data/     
-│   └── sales_data.csv # Sample dataset (generated in R)     
-├── www/     
-│   └── custom.css     # Custom CSS for styling (optional)     
+├── app.R              # Main Shiny application file (Data is embeded in the R file)       
 └── README.md          # This file     
 
 ## 🚀 Getting Started
 
 1. Clone this repository:
+   ```
    git clone https://github.com/yourusername/TechSales-Dashboard.git
+   ```
 
-2. Install required R packages:
+3. Install required R packages:
 ```R
 install.packages(c("shiny", "shinydashboard", "tidyverse", "lubridate", "plotly", "DT"))
 ```
